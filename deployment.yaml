@@ -29,7 +29,7 @@ spec:
     app: react-app
   ports:
   - protocol: TCP
-    port: 3000
-    targetPort: 3012
+    port: 3012
+    targetPort: 3000
     nodePort: 30001
   type: NodePort
